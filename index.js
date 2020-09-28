@@ -25,4 +25,5 @@ class Formatter {
   }
   return result;
 }
+
 }
