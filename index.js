@@ -23,6 +23,6 @@ class Formatter {
       }
 
     }
-    return result
+    return result.join( " " );
   }
 }
