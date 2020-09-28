@@ -1,10 +1,10 @@
 class Formatter {
   static capitalize(stri) {
-    return string.charAt( 0 ).toUpperCase() + string.slice( 1 )
+    return stri.charAt( 0 ).toUpperCase() + stri.slice( 1 )
   }
 
-  static sanitize(string) {
-    return string.replace( /[^A-Za-z0-9 '-]/g, '' )
+  static sanitize(stri) {
+    return stri.replace( /[^A-Za-z0-9 '-]/g, '' )
   }
 
   static titleize( sentence ) {
